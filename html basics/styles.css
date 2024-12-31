@@ -7,7 +7,15 @@ header{
     height: 100vh;
     color: white;
     background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
+}
+a{
+    text-decoration: none;
 }
 h1{
     font-size: 4rem;
@@ -15,9 +23,11 @@ h1{
 }
 header h1{
     color: white;
-    margin: 0;
+    text-align: center;
+
 }
 .button{
+    margin: 15px;
     height: 30px;
     width: 120px;
     border: none;
@@ -38,6 +48,12 @@ section{
     border: 1px solid grey;
     border-radius: 20px;
     margin: 20px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 }
 main{
